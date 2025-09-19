@@ -1,0 +1,47 @@
+/*  features - section   */
+.features {
+    text-align: center;
+    padding: 4em 2em;
+    width: 100%;
+}
+
+.features h2 {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    font-size: 1.8em;
+}
+
+.features .features_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2em;
+    max-width: 800px;
+    margin: 2em auto 0;
+    padding: 0 1em;
+}
+
+.features .fa-solid,
+.features .fa-regular {
+    background-color: var(--main-clr);
+    color: white;
+    padding: 45px;
+    border-radius: 50%;
+    margin-bottom: 1em;
+}
+
+.features article {
+    flex: 0 1 calc(50% - 1em);
+    
+    min-width: 250px;
+    
+    max-width: 350px;
+    
+    background: #80808014;
+    padding: 1.5em 0.8em;
+    border-radius: var(--border-radius);
+    margin-bottom: 0;
+   
+    box-shadow: -2px 4px 5px 2px #80808054, -1px 2px 15px 0px #80808030;
+    box-sizing: border-box;
+}
